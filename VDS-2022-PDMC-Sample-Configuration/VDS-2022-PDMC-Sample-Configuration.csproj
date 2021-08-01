@@ -158,6 +158,9 @@
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.Classification.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.Classification.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.CustomObjectsClassified.psm1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.CustomObjectsClassified.psm1</Link>
+    </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.Default.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.Default.ps1</Link>
     </None>
@@ -179,8 +182,14 @@
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ItemLookup.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.ItemLookup.ps1</Link>
     </None>
-    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.NameValidation.ps1">
-      <Link>Vault.Custom\addinVault\ADSK.QS.NameValidation.ps1</Link>
+    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.NameValidationCustent.ps1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.NameValidationCustent.ps1</Link>
+    </None>
+    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.NameValidationFile.ps1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.NameValidationFile.ps1</Link>
+    </None>
+    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.NameValidationFolder.ps1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.NameValidationFolder.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.Org.Pers.Link.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.Org.Pers.Link.ps1</Link>
@@ -190,9 +199,6 @@
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.RevisionMgmt.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.RevisionMgmt.ps1</Link>
-    </None>
-    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.TermsTranslations.psm1">
-      <Link>Vault.Custom\addinVault\ADSK.QS.TermsTranslations.psm1</Link>
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.VLT.Library.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.VLT.Library.ps1</Link>
@@ -206,8 +212,8 @@
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObject.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObject.ps1</Link>
     </None>
-    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObjectTerm.ps1">
-      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObjectTerm.ps1</Link>
+    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObjectClassified.ps1">
+      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObjectClassified.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.CreateFile.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.CreateFile.ps1</Link>
@@ -218,8 +224,8 @@
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.EditCustomObject.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.EditCustomObject.ps1</Link>
     </None>
-    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.EditCustomObjectTerm.ps1">
-      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.EditCustomObjectTerm.ps1</Link>
+    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.EditCustomObjectClassified.ps1">
+      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.EditCustomObjectClassified.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.EditFile.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.EditFile.ps1</Link>
@@ -289,9 +295,6 @@
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault\addinVault\Menus\ShowLog.ps1">
       <Link>Vault\addinVault\Menus\ShowLog.ps1</Link>
-    </None>
-    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault\CustomEntityDefinitions.json">
-      <Link>Vault\CustomEntityDefinitions.json</Link>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -384,8 +387,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.CustomObjectTerm.xaml">
-      <Link>Vault.Custom\Configuration\ADSK.QS.CustomObjectTerm.xaml</Link>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.CustomObjectClassified.xaml">
+      <Link>Vault.Custom\Configuration\ADSK.QS.CustomObjectClassified.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.CustomObjectOrganisation.xaml">
+      <Link>Vault.Custom\Configuration\ADSK.QS.CustomObjectOrganisation.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -419,13 +427,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Aufgabe\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Aufgabe\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Begriff\DatasheetTerms.xaml">
-      <Link>Vault.Custom\Configuration\Begriff\DatasheetTerms.xaml</Link>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Class\Adsk.QS.ClassifiedObject.DataSheet.xaml">
+      <Link>Vault.Custom\Configuration\Class\Adsk.QS.ClassifiedObject.DataSheet.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -464,6 +467,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Group\Adsk.QS.ClassifiedObject.DataSheet.xaml">
+      <Link>Vault.Custom\Configuration\Group\Adsk.QS.ClassifiedObject.DataSheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Item\ADSK.QS.AttachFileImport.xaml">
       <Link>Vault.Custom\Configuration\Item\ADSK.QS.AttachFileImport.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
@@ -471,6 +479,11 @@
     </Page>
     <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Item\ADSK.QS.ItemFileClassification.xaml">
       <Link>Vault.Custom\Configuration\Item\ADSK.QS.ItemFileClassification.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Main Group\Adsk.QS.ClassifiedObject.DataSheet.xaml">
+      <Link>Vault.Custom\Configuration\Main Group\Adsk.QS.ClassifiedObject.DataSheet.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -484,8 +497,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Sendung\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Sendung\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Segment\ADSK.QS.CUSTENT.Datasheet.xaml">
+      <Link>Vault.Custom\Configuration\Segment\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Sub Group\Adsk.QS.ClassifiedObject.DataSheet.xaml">
+      <Link>Vault.Custom\Configuration\Sub Group\Adsk.QS.ClassifiedObject.DataSheet.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -496,11 +514,6 @@
     </Page>
     <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Term\DatasheetTerms.xaml">
       <Link>Vault.Custom\Configuration\Term\DatasheetTerms.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Transmittal\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Transmittal\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -561,6 +574,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Vault.Custom\CustomObject-Add.ico" />
+    <Resource Include="Vault.Custom\CustomObject-Edit.ico" />
     <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Folder2022.xml">
       <Link>Vault.Custom\Folder2022.xml</Link>
     </Resource>
@@ -1482,12 +1497,6 @@
     <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\ECR.ico">
       <Link>Vault.Custom\ECR.ico</Link>
     </Resource>
-    <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\EditCO.ico">
-      <Link>Vault.Custom\EditCO.ico</Link>
-    </Resource>
-    <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\EditCustomObject.ico">
-      <Link>Vault.Custom\EditCustomObject.ico</Link>
-    </Resource>
     <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\EditFileDatasheet.ico">
       <Link>Vault.Custom\EditFileDatasheet.ico</Link>
     </Resource>
@@ -1547,9 +1556,6 @@
     </Resource>
     <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Milestone-ok.ico">
       <Link>Vault.Custom\Milestone-ok.ico</Link>
-    </Resource>
-    <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\NewCO.ico">
-      <Link>Vault.Custom\NewCO.ico</Link>
     </Resource>
     <Resource Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\NewStandardFile.ico">
       <Link>Vault.Custom\NewStandardFile.ico</Link>
