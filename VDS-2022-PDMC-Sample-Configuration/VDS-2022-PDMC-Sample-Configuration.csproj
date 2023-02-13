@@ -149,9 +149,6 @@
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\HelpFiles\debug.log">
       <Link>HelpFiles\debug.log</Link>
     </None>
-    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.Org.Pers.Link.ps1">
-      <Link>Vault.Custom\addinVault\ADSK.Org.Pers.Link.ps1</Link>
-    </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ActivateSchedTaskAsJob.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.ActivateSchedTaskAsJob.ps1</Link>
     </None>
@@ -178,6 +175,9 @@
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.FileImport.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.FileImport.ps1</Link>
+    </None>
+    <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ISO61355.psm1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.ISO61355.psm1</Link>
     </None>
     <None Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ItemLookup.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.ItemLookup.ps1</Link>
@@ -512,8 +512,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Term\DatasheetTerms.xaml">
-      <Link>Vault.Custom\Configuration\Term\DatasheetTerms.xaml</Link>
+    <Page Include="..\..\..\..\..\ProgramData\Autodesk\Vault 2022\Extensions\DataStandard\Vault.Custom\Configuration\Term\Adsk.QS.ClassifiedObject.DataSheet.xaml">
+      <Link>Vault.Custom\Configuration\Term\Adsk.QS.ClassifiedObject.DataSheet.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
