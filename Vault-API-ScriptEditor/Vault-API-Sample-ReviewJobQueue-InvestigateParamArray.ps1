@@ -12,9 +12,9 @@
 
 #region ConnectToVault
 
-		# NOTE - click licensing v5 requires to copy AdskLicensingSDK_5.dll to PowerShell execution folder C:\Windows\System32\WindowsPowerShell\v1.0 before Powershell runtime starts
+# NOTE - click licensing v6 requires to copy AdskLicensingSDK_6.dll to PowerShell execution folder C:\Windows\System32\WindowsPowerShell\v1.0 before Powershell runtime starts
 
-		[System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2021 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll')
+[System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2023 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll')
 		$serverID = New-Object Autodesk.Connectivity.WebServices.ServerIdentities
 			$serverID.DataServer = "<ServerName or IP>"
 			$serverID.FileServer = "<ServerName or IP>"
@@ -32,7 +32,8 @@
 				[Autodesk.Connectivity.WebServices.JobParam[]] $params = @()
 				$mJobMaxCount = 100
 				$mJobStartDate = Get-Date -Day 01 -Month 01 -Year 2010
-				$mJobList = $vault.JobService.GetJobsByDate($mJobMaxCount, $mJobStartDate)
+				[Autodesk.Connectivity.WebServices.Job[]] $mJobList = @()
+				$mJobList += $vault.JobService.GetJobsByDate($mJobMaxCount, $mJobStartDate)
 
 				foreach($mJob in $mJobList)
 				{
