@@ -16,9 +16,9 @@
 
 [System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2024 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll')
 $serverID = New-Object Autodesk.Connectivity.WebServices.ServerIdentities
-$serverID.DataServer = "https://6a57d403.vg.autodesk.com"
-$serverID.FileServer = "https://6a57d403.vg.autodesk.com"
-$VaultName = "MKOE_TS"
+	$serverID.DataServer = "<ServerName or IP>"
+	$serverID.FileServer = "<ServerName or IP>"
+$VaultName = ""
 
 $AdskAccnt = [Autodesk.Connectivity.WebServicesTools.AutodeskAccount]::LogIn([System.IntPtr]::Zero)
 $tokenId = $AdskAccnt.GetAccessToken()

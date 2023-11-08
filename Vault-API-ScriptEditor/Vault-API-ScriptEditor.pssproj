@@ -30,6 +30,7 @@
     <Compile Include="Vault-API-Sample-ActivateScheduledJobForQueue.ps1" />
     <Compile Include="Vault-API-Sample-AddJobToQueue.ps1" />
     <Compile Include="Vault-API-Sample-AutodeskAccountLogin.ps1" />
+    <Compile Include="Vault-API-Sample-CreateThinClientLinks.ps1" />
     <Compile Include="Vault-API-Sample-ReviewJobQueue-InvestigateParamArray.ps1" />
     <Compile Include="Vault-API-Sample-AddJobExtractItemData.ps1" />
     <Compile Include="Vault-API-Sample-AssignDocumentToItem.ps1" />

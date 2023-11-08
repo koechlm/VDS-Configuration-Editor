@@ -16,8 +16,8 @@
 
 		[System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2024 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll')
 		$serverID = New-Object Autodesk.Connectivity.WebServices.ServerIdentities
-			$serverID.DataServer = "192.168.85.128"
-			$serverID.FileServer = "192.168.85.128"
+			$serverID.DataServer = "<ServerName or IP>"
+			$serverID.FileServer = "<ServerName or IP>"
 		$VaultName = "PDMC-Sample"
 		$UserName = "CAD Admin"
 		$password = ""
