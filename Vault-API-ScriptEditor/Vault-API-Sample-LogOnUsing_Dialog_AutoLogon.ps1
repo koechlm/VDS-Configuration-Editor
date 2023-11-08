@@ -12,10 +12,10 @@
 
 #region ConnectToVault
 
-		# NOTE - click licensing v6 requires to copy AdskLicensingSDK_6.dll to PowerShell execution folder C:\Windows\System32\WindowsPowerShell\v1.0 before Powershell runtime starts
+		# NOTE - click licensing v7 requires to copy AdskLicensingSDK_7.dll, AdskIdentitySDK.config, and AdskIdentitySDK.dll to PowerShell execution folder C:\Windows\System32\WindowsPowerShell\v1.0 before Powershell runtime starts
 
-		Add-Type -Path "C:\Program Files\Autodesk\Autodesk Vault 2023 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll"
-		Add-Type -Path "C:\Program Files\Autodesk\Autodesk Vault 2023 SDK\bin\x64\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll"
+		Add-Type -Path "C:\Program Files\Autodesk\Autodesk Vault 2024 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll"
+		Add-Type -Path "C:\Program Files\Autodesk\Autodesk Vault 2024 SDK\bin\x64\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll"
 
 		$settings = New-Object Autodesk.DataManagement.Client.Framework.Vault.Forms.Settings.LoginSettings 
 		$settings.PersistenceKey = "AlwaysTheSameKey"

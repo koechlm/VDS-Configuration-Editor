@@ -50,7 +50,6 @@
     <Compile Include="Script-Samples\PowerShell-Debug.ps1" />
     <Compile Include="Script-Samples\SaveAsDialog.ps1" />
     <Compile Include="Script-Samples\Unblock_QuickstartScripts.ps1" />
-    <Compile Include="Script-Samples\VaultConnection.ps1" />
     <Compile Include="Script-Samples\VaultItemSearch.ps1" />
   </ItemGroup>
   <ItemGroup>

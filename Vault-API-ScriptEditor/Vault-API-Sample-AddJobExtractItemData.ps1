@@ -13,9 +13,9 @@
 #region ConnectToVault
 	Try
 	{
-		# NOTE - click licensing v5 requires to copy AdskLicensingSDK_5.dll to PowerShell execution folder C:\Windows\System32\WindowsPowerShell\v1.0 before Powershell runtime starts
+		# NOTE - click licensing v7 requires to copy AdskLicensingSDK_7.dll, AdskIdentitySDK.config, and AdskIdentitySDK.dll to PowerShell execution folder C:\Windows\System32\WindowsPowerShell\v1.0 before Powershell runtime starts
 
-		[System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2021 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll')
+		[System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2024 SDK\bin\x64\Autodesk.Connectivity.WebServices.dll')
 		$serverID = New-Object Autodesk.Connectivity.WebServices.ServerIdentities
 			$serverID.DataServer = "<ServerName or IP>"
 			$serverID.FileServer = "<ServerName or IP>"
@@ -38,7 +38,7 @@
 				$mJobParamFile.Val = "15030"
 				$mJobParams += $mJobParamFile
 
-				[System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2021 SDK\bin\x64\Explorer\Autodesk.DataManagement.Client.Framework.Vault.dll')
+				[System.Reflection.Assembly]::LoadFrom('C:\Program Files\Autodesk\Autodesk Vault 2024 SDK\bin\x64\Explorer\Autodesk.DataManagement.Client.Framework.Vault.dll')
 				[System.Enum]$AuthFlag = [Autodesk.DataManagement.Client.Framework.Vault.Currency.Connections.AuthenticationFlags]::Standard
 				$UsrID = $vault.AdminService.Session.User.Id			
 				$vaultConnection = New-Object Autodesk.DataManagement.Client.Framework.Vault.Currency.Connections.Connection($vault, $VaultName, $UsrID, $serverID, $AuthFlag )
