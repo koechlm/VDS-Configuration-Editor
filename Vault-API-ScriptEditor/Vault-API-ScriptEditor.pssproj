@@ -36,6 +36,7 @@
     <Compile Include="Vault-API-Sample-AssignDocumentToItem.ps1" />
     <Compile Include="Vault-API-Sample-CreateDocumentItem.ps1" />
     <Compile Include="Vault-API-Sample-PurgeFileVersions.ps1" />
+    <Compile Include="Vault-API-Sample-Search-ChangeOrders.ps1" />
     <Compile Include="Vault-API-Sample-Search-Custents.ps1" />
     <Compile Include="Vault-API-Sample-Search-Files.ps1" />
     <Compile Include="Vault-API-Sample-Search-Items.ps1" />
