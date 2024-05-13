@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>YourTitle</Title>
+			<Shortcut />
+			<Description>Explaination as tooltip</Description>
+			<Author />
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="XAML" Delimiter="~">
+        <![CDATA[
+<Style TargetType="{x:Type DataGridRow}">
+    <Setter Property="Visibility" Value="Visible" />
+    <Style.Triggers>
+        <MultiDataTrigger>
+            <MultiDataTrigger.Conditions>
+                <Condition Binding="{Binding Name}" Value="Prop3"/>
+                <Condition Binding="{Binding DataContext.Prop[_FileExt].Value, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" Value="IPT"/>
+            </MultiDataTrigger.Conditions>
+            <Setter Property="Visibility" Value="Collapsed" />
+        </MultiDataTrigger>
+    </Style.Triggers>
+</Style>
+      ]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

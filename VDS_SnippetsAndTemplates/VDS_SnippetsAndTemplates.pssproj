@@ -79,6 +79,7 @@
     <Content Include="VDS XAML Snippets\VDS-DynGrid3rdColumnButton.snippet" />
     <Content Include="VDS XAML Snippets\VDS-DynGridButton.snippet" />
     <Content Include="VDS XAML Snippets\VDS-DynGrid3rdColumnButtonStyle.snippet" />
+    <Content Include="VDS XAML Snippets\VDS-XAML-DynamicGridRow-ShowHideProperty.snippet" />
     <Content Include="VDS XAML Snippets\VDS_Label.snippet" />
     <Content Include="VDS XAML Snippets\VDS_TextBox.snippet" />
   </ItemGroup>
