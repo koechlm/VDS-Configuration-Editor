@@ -32,6 +32,15 @@
 			# in order to run the sample code, you need to identify a file linked to an item and controlled by a change order
 			# ToDo: change the file path in line 36 accordingly
 
+			#get the folder object
+			$FolderFullPath = "$/Designs/SR-0006/Discharge Chute"
+			$folder = $vault.DocumentService.GetFolderByPath($FolderFullPath)
+			#create TC link
+			$serverUri = [System.Uri]$Vault.InformationService.Url		
+			$TcFolderLink = "$($serverUri.Scheme)://$($VaultConnection.Server)/AutodeskTC/$($VaultConnection.Vault)/explore/folder/$($folder.Id)"
+			#open link with default browser
+			Start-Process $TcFolderLink
+			
 			#get file master	
 			$filePaths = @("$/Designs/SR-0006/Discharge Chute/01-0745.iam")	
 			$file = $vault.DocumentService.FindLatestFilesByPaths($filePaths)[0]

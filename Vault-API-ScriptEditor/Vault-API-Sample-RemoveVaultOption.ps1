@@ -29,7 +29,7 @@
 
 		#region ExecuteInVault
 
-			#query vault, download files, etc....		
+			$vault.KnowledgeVaultService.SetVaultOption("POWERFLC_SETTINGS", $null)
 			
 		#endregion ExecuteInVault
 		

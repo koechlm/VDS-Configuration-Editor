@@ -47,6 +47,7 @@
     <Compile Include="Vault-API-Sample-LogOnUsing_Dialog_AutoLogon.ps1" />
     <Compile Include="Vault-API-Sample-CreateNewItemWithOtherNumscheme.ps1" />
     <Compile Include="Vault-API-Sample-GetUserPermissions.ps1" />
+    <Compile Include="Vault-API-Sample-RemoveVaultOption.ps1" />
     <Compile Include="Vault-API-Sample-Template.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
